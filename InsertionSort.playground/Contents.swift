@@ -52,7 +52,7 @@ func insertionSortGeneric<T>(_ array: [T], _ isOrderedBefore: (T, T) -> Bool) ->
 
     return sortedArr
 }
-let numbers = [ 10, -1, 3, 9, 2, 27, 8, 5, 1, 3, 0, 26 ]
+let numbers = [1, 2, 1, 0, 2, 1,0]//[ 10, -1, 3, 9, 2, 27, 8, 5, 1, 3, 0, 26 ]
 insertionSortGeneric(numbers, <)
 insertionSortGeneric(numbers, >)
 
